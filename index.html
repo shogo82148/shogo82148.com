@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ICHINOSE Shogo (shogo82148)</title>
 <meta name="description" content="ICHINOSE Shogo (shogo82148) の自己紹介ページ。ブログ・SNS・成果物へのリンクをまとめています。">
+<link rel="icon" href="icon.png">
+<meta property="og:title" content="ICHINOSE Shogo (shogo82148)">
+<meta property="og:description" content="ICHINOSE Shogo (shogo82148) の自己紹介ページ。ブログ・SNS・成果物へのリンクをまとめています。">
+<meta property="og:image" content="icon.png">
+<meta property="og:type" content="profile">
 <style>
   :root {
     --bg: #f7f8fa;
@@ -56,18 +61,14 @@
   }
 
   .avatar {
-    width: 96px;
-    height: 96px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--accent), #7c3aed);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 700;
+    object-fit: cover;
+    display: block;
     margin: 0 auto 20px;
     box-shadow: var(--shadow);
+    border: 3px solid var(--surface);
   }
 
   h1 {
@@ -181,7 +182,7 @@
 <body>
 <main>
   <header>
-    <div class="avatar" aria-hidden="true">S</div>
+    <img class="avatar" src="icon.png" width="120" height="120" alt="shogo82148 のアイコン（羊のキャラクター）">
     <h1>ICHINOSE Shogo</h1>
     <p class="handle">@shogo82148</p>
     <p class="tagline">
