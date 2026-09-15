@@ -145,6 +145,13 @@
 
   .icon svg { width: 22px; height: 22px; }
 
+  .icon.brand {
+    background: transparent;
+    overflow: hidden;
+  }
+
+  .icon.brand svg { width: 40px; height: 40px; }
+
   .card-body { flex: 1; min-width: 0; }
 
   .card-title {
@@ -242,8 +249,17 @@
       </a>
 
       <a class="card" href="https://mixi.social/@shogo82148" target="_blank" rel="noopener">
-        <span class="icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17V9a2 2 0 0 1 4 0v8"/><path d="M8 12a2 2 0 0 1 4 0v5"/><path d="M12 12a2 2 0 0 1 4 0v5"/><path d="M20 9v8"/></svg>
+        <span class="icon brand" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 8C0 3.58172 3.58172 0 8 0H40C44.4183 0 48 3.58172 48 8V40C48 44.4183 44.4183 48 40 48H8C3.58172 48 0 44.4183 0 40V8Z" fill="white"/>
+            <path d="M39.6362 17.6302C36.4764 5.90385 27.339 24.2027 23.6663 14.0177C21.1375 7.00689 10.7357 15.0557 8.21651 24.8217C6.77149 30.4212 9.58929 34.012 16.971 29.2362C22.845 25.4358 26.4624 26.4064 25.8338 33.1884C25.5544 36.2037 29.0418 38.5157 34.1596 35.2981C39.9541 31.6567 41.3679 24.0727 39.6338 17.6327L39.6362 17.6302Z" fill="url(#mixi2-grad)"/>
+            <defs>
+              <linearGradient id="mixi2-grad" x1="14.6252" y1="15.2098" x2="36.698" y2="33.3449" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF79A1"/>
+                <stop offset="1" stop-color="#FF9A00"/>
+              </linearGradient>
+            </defs>
+          </svg>
         </span>
         <span class="card-body">
           <span class="card-title">mixi2</span>
